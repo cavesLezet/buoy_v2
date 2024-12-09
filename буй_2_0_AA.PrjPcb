@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for ασι_2_0_AA
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -564,6 +564,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document32]
+DocumentPath=..\Hydrolib\Footprints\sim800l.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VKBMGNER
+
+[ProjectVariant1]
+UniqueID=3E8F0F11-9C3E-4212-AFD9-03D8694B9123
+Description=default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=DD1|UniqueId=\EJQBLMJH|Kind=1|AlternatePart= 
+Variation2=Designator=D1|UniqueId=\NCXFSUFF|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -613,7 +640,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for ασι_2_0_AA
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
