@@ -1,0 +1,180 @@
+
+**** 12/15/24 22:53:46 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование источника тока на тл431\tl431-pspicefiles\
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\shustrik\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TL431
+X_U1         N14509 N14502 N14603 awbtl431
+R_R2         N14509 N14502  2.5k TC=0,0 
+R_R3         N14603 VCC_ARROW  1k TC=0,0 
+X_D2         0 N14509 awbbzx55c2v7 PARAMS:               
+X_Q1         VCC_ARROW N14603 N14502 BC338/INF
+V_V2         VCC_ARROW 0 12
+
+**** RESUMING bias.cir ****
+.END
+
+**** 12/15/24 22:53:46 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование источника тока на тл431\tl431-pspicefiles\
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.M1MD431    X_U1.M2MZ2_5    X_U1.M4MID      
+          IS  100.000000E-15    1.000000E-12    1.000000E-09 
+           N                    1.55                         
+          BV   37               2.74                         
+         IBV                     .02                         
+          RS    1.000000E-03     .5              .1          
+          TT    1.000000E-09    1.000000E-09    1.000000E-09 
+         CJO                   18.000000E-12                 
+          VJ                     .7                          
+           M                     .4                          
+          FC                     .5                          
+
+
+**** 12/15/24 22:53:46 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование источника тока на тл431\tl431-pspicefiles\
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.M3MQ431    BC338           
+               NPN             NPN             
+       LEVEL    1               1            
+          IS  100.000000E-18  180.000000E-15 
+          BF  500             449.302        
+          NF    1               1            
+         VAF                   95            
+         IKF                     .82         
+         ISE                    8.480000E-15 
+          NE                    1.566        
+          BR    1              16.919        
+          NR    1               1.005        
+         VAR                   13            
+         IKR                     .663        
+         ISC                  102.000000E-15 
+          NC                    1.764        
+         ISS    0               0            
+          RB  200                .75         
+         RBM                     .375        
+         IRB                  100.000000E-06 
+          RE    3                .17         
+          RC   10                .289        
+         CJE   10.000000E-12   63.400000E-12 
+         VJE     .75             .85         
+         MJE                     .372        
+         CJC  200.000000E-12   16.600000E-12 
+         VJC     .75             .78         
+         MJC     .33             .433        
+        XCJC    1                .65         
+         CJS    0               0            
+         VJS     .75             .75         
+          FC                     .75         
+          TF                  810.000000E-12 
+         XTF                    4.3          
+         VTF                    1.5          
+         ITF                     .45         
+         PTF                    1            
+          TR                    2.600000E-09 
+         XTB                    1.5          
+         XTI                    4.8          
+          KF    0               5.000000E-15 
+          AF    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 12/15/24 22:53:46 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование источника тока на тл431\tl431-pspicefiles\
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14502)    5.2073 (N14509)    2.7061 (N14603)    5.7873 (X_Q1.4)    5.7873     
+
+(X_Q1.5)    5.7873 (X_Q1.6)   12.0000 (X_Q1.7)    5.2073 (X_Q1.8)    5.2073     
+
+(X_U1.1)   13.7620 (X_U1.3)   22.7060 (X_U1.5)   13.7620 (X_U1.8)    3.7061     
+
+(X_U1.9)    5.2059 (X_U1.10)    4.5487                   (VCC_ARROW)   12.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -7.213E-03
+    X_U1.VV61    6.223E-03
+    X_U1.VV68   -1.009E-09
+
+    TOTAL POWER DISSIPATION   8.03E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/15/24 22:53:46 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование источника тока на тл431\tl431-pspicefiles\
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

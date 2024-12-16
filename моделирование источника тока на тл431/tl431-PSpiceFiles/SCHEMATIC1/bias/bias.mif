@@ -1,0 +1,5 @@
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\vr.lib, offset=134422, size=913
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\diz.lib, offset=217870, size=678
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\Infineon.lib, offset=80308, size=191
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\Infineon.lib, offset=80500, size=424
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\templates.lib, offset=13486, size=8791

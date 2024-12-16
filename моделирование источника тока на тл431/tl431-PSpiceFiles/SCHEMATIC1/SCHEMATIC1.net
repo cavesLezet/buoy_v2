@@ -1,0 +1,7 @@
+* source TL431
+R_R2         N16065 VCC_ARROW  1.8k TC=0,0 
+V_V2         VCC_ARROW 0 14
+Q_Q1         N14576 N16275 N16065 BC327_1 
+R_R3         0 N16275  1k TC=0,0 
+X_D4         N16275 VCC_ARROW MMSZ5221BT1
+R_R4         0 N14576  3k TC=0,0 
