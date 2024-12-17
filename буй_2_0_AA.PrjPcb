@@ -598,6 +598,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGRMBXLD
 
+[Document34]
+DocumentPath=sepic12-12.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CUEXAIZS
+
 [ProjectVariant1]
 UniqueID=3E8F0F11-9C3E-4212-AFD9-03D8694B9123
 Description=default

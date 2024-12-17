@@ -1,0 +1,152 @@
+Removed Member From Class: ClassName=Udcdc5v Member=C11
+Removed Member From Class: ClassName=Udcdc5v Member=C12
+Removed Member From Class: ClassName=Udcdc5v Member=DA2
+Removed Member From Class: ClassName=ץוץולא Member=R23
+Removed Member From Class: ClassName=ץוץולא Member=R24
+Removed Member From Class: ClassName=jarit'_paneli2 Member=R28_2
+Removed Member From Class: ClassName=jarit'_paneli1 Member=R29_1
+Removed Member From Class: ClassName=jarit'_paneli1 Member=R30_1
+Removed Member From Class: ClassName=jarit'_paneli2 Member=R31_2
+Removed Member From Class: ClassName=Udcdc5v Member=VD13
+Removed Member From Class: ClassName=ץוץולא Member=VD13
+Added Component: Designator=C?(1206C)
+Add component (AddParameter): Name = "Capacity (nF)"; Value = "4700"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_4,7u_10_50V_X7R_1206C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0,1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4,7 לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "50"; VariantName = "[No Variations]"
+Added Component: Designator=C?(1210C)
+Add component (AddParameter): Name = "Capacity (nF)"; Value = "22000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_22u_10_25V_X7R_1210C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0,1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22 לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "25"; VariantName = "[No Variations]"
+Added Component: Designator=C?(1210C)
+Add component (AddParameter): Name = "Capacity (nF)"; Value = "22000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_22u_10_25V_X7R_1210C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0,1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22 לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "25"; VariantName = "[No Variations]"
+Added Component: Designator=C?(1206C)
+Add component (AddParameter): Name = "Capacity (nF)"; Value = "4700"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_4,7u_10_50V_X7R_1206C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0,1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4,7 לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "50"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+5 Pin=C?-2
+Added Pin To Net: NetName=+5 Pin=C?-2
+Added Pin To Net: NetName=+12_akkum Pin=C?-2
+Added Pin To Net: NetName=+12_akkum Pin=C?-2
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Member To Class: ClassName=ץוץולא Member=Component C6 Capacitor
+Added Member To Class: ClassName=ץוץולא Member=Component C8 Capacitor
+Added Member To Class: ClassName=ץוץולא Member=Component C10 Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C19_1 (C19) Capacitor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component C19_2 (C19) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C20_1 (C20) Capacitor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component C20_2 (C20) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C21_1 (C21) Capacitor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component C21_2 (C21) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C22_1 (C22) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C23_1 (C23) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C24_1 (C24) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C25_1 (C25) Capacitor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component C25_2 (C25) Capacitor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component C26_1 (C26) Capacitor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component C26_2 (C26) Capacitor
+Added Member To Class: ClassName=Udcdc5v Member=Component C? Capacitor
+Added Member To Class: ClassName=Udcdc5v Member=Component C? Capacitor
+Added Member To Class: ClassName=Udcdc5v Member=Component C? Capacitor
+Added Member To Class: ClassName=Udcdc5v Member=Component C? Capacitor
+Added Member To Class: ClassName=ץוץולא Member=Component DA1 VN7140AS
+Added Member To Class: ClassName=ץוץולא Member=Component DA2 VN7140AS
+Added Member To Class: ClassName=Udcdc5v Member=Component DA3 RT8279GSP
+Added Member To Class: ClassName=switch1 Member=Component DA6_1 (DA6) VN7140AS
+Added Member To Class: ClassName=switch3 Member=Component DA6_3 (DA6) VN7140AS
+Added Member To Class: ClassName=switch5 Member=Component DA7_5 (DA7) VN7140AS
+Added Member To Class: ClassName=switch7 Member=Component DA7_7 (DA7) VN7140AS
+Added Member To Class: ClassName=ץוץולא Member=Component R3 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R4 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R7 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R10 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R11 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R15 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R16 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R18 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R19 Resistor
+Added Member To Class: ClassName=ץוץולא Member=Component R21 Resistor
+Added Member To Class: ClassName=Udcdc5v Member=Component R22 Resistor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component R25_1 (R25) Resistor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component R25_2 (R25) Resistor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component R26_1 (R26) Resistor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component R26_2 (R26) Resistor
+Added Member To Class: ClassName=jarit'_paneli1 Member=Component R27_1 (R27) Resistor
+Added Member To Class: ClassName=jarit'_paneli2 Member=Component R27_2 (R27) Resistor
+Added Member To Class: ClassName=switch1 Member=Component R28_1 (R28) Resistor
+Added Member To Class: ClassName=switch3 Member=Component R28_3 (R28) Resistor
+Added Member To Class: ClassName=switch5 Member=Component R28_5 (R28) Resistor
+Added Member To Class: ClassName=switch7 Member=Component R28_7 (R28) Resistor
+Added Member To Class: ClassName=switch2 Member=Component R29_2 (R29) Resistor
+Added Member To Class: ClassName=switch3 Member=Component R29_3 (R29) Resistor
+Added Member To Class: ClassName=switch5 Member=Component R29_5 (R29) Resistor
+Added Member To Class: ClassName=switch7 Member=Component R29_7 (R29) Resistor
+Added Member To Class: ClassName=switch2 Member=Component R30_2 (R30) Resistor
+Added Member To Class: ClassName=switch4 Member=Component R30_4 (R30) Resistor
+Added Member To Class: ClassName=switch6 Member=Component R30_6 (R30) Resistor
+Added Member To Class: ClassName=switch1 Member=Component R31_1 (R31) Resistor
+Added Member To Class: ClassName=switch3 Member=Component R31_3 (R31) Resistor
+Added Member To Class: ClassName=switch4 Member=Component R31_4 (R31) Resistor
+Added Member To Class: ClassName=switch6 Member=Component R31_6 (R31) Resistor
+Added Member To Class: ClassName=switch1 Member=Component R32_1 (R32) Resistor
+Added Member To Class: ClassName=switch3 Member=Component R32_3 (R32) Resistor
+Added Member To Class: ClassName=switch5 Member=Component R32_5 (R32) Resistor
+Added Member To Class: ClassName=switch7 Member=Component R32_7 (R32) Resistor
+Added Member To Class: ClassName=switch2 Member=Component R33_2 (R33) Resistor
+Added Member To Class: ClassName=switch4 Member=Component R33_4 (R33) Resistor
+Added Member To Class: ClassName=switch5 Member=Component R33_5 (R33) Resistor
+Added Member To Class: ClassName=switch7 Member=Component R33_7 (R33) Resistor
+Added Member To Class: ClassName=switch2 Member=Component R34_2 (R34) Resistor
+Added Member To Class: ClassName=switch4 Member=Component R34_4 (R34) Resistor
+Added Member To Class: ClassName=switch6 Member=Component R34_6 (R34) Resistor
+Added Member To Class: ClassName=Udcdc_na_akkum Member=Component R37 Resistor
+Added Member To Class: ClassName=Udcdc_na_akkum Member=Component R38 TC33X-2-102E
+Added Member To Class: ClassName=ץוץולא Member=Component VD3 SMBJ13A-TR
+Added Member To Class: ClassName=ץוץולא Member=Component VD4 PESD5V0S1UB
+Added Member To Class: ClassName=ץוץולא Member=Component VD5 BZV55B2V4
+Added Member To Class: ClassName=ץוץולא Member=Component VD7 PESD5V0S1UB
+Added Member To Class: ClassName=ץוץולא Member=Component VD8 SMAJ12CA
+Added Member To Class: ClassName=Udcdc5v Member=Component VD10 BAT54WS
+Added Member To Class: ClassName=Udcdc5v Member=Component VD11 10S45SP
