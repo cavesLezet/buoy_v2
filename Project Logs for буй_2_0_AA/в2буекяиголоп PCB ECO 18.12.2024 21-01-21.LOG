@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=+5_sw Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Member From Class: ClassName=ץוץולא Member=C1
+Added Component: Designator=C?(10x20_radial_angular)
+Add component (AddParameter): Name = "Capacity (uF)"; Value = "2200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Capacitor_2200u_10V_10x20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Aluminum"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2200 לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (V)"; Value = "10"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5_sw Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=NetR40_1 Pin=R40-1
+Added Pin To Net: NetName=NetR44_1 Pin=R45-1
+Added Member To Class: ClassName=ץוץולא Member=Component C? Capacitor
