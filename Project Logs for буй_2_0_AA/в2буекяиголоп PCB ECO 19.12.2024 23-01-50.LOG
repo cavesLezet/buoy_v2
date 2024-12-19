@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=RS485_1r_P Pin=XP1-1
+Removed Pin From Net: NetName=RS485_1r_N Pin=XP1-2
+Removed Pin From Net: NetName=RS485_2r_N Pin=XP1-3
+Removed Pin From Net: NetName=RS485_2r_P Pin=XP1-4
+Removed Pin From Net: NetName=NetR20_2 Pin=XP1-5
+Removed Pin From Net: NetName=A1 Pin=XP1-6
+Removed Pin From Net: NetName=NetR21_2 Pin=XP1-7
+Removed Pin From Net: NetName=NetR22_2 Pin=XP1-8
+Removed Pin From Net: NetName=NetR23_2 Pin=XP1-9
+Removed Pin From Net: NetName=NetR24_2 Pin=XP1-10
+Removed Pin From Net: NetName=NetR25_2 Pin=XP1-11
+Removed Pin From Net: NetName=NetR26_2 Pin=XP1-12
+Removed Pin From Net: NetName=NetR26_2 Pin=XP1-13
+Removed Pin From Net: NetName=panel_1 Pin=XP1-14
+Removed Pin From Net: NetName=panel_2 Pin=XP1-15
+Removed Pin From Net: NetName=panel_3 Pin=XP1-16
+Removed Pin From Net: NetName=panel_4 Pin=XP1-17
+Removed Pin From Net: NetName=panel_5 Pin=XP1-18
+Removed Pin From Net: NetName=panel_6 Pin=XP1-19
+Removed Pin From Net: NetName=panel_7 Pin=XP1-20
+Removed Pin From Net: NetName=+12_stable Pin=XP1-21
+Removed Pin From Net: NetName=+12_vilka Pin=XP1-22
+Removed Pin From Net: NetName=GND Pin=XP1-23
+Removed Pin From Net: NetName=GND Pin=XP1-24
+Removed Pin From Net: NetName=GND Pin=XP1-25
+Removed Pin From Net: NetName=GND Pin=XP1-SH1
+Removed Pin From Net: NetName=GND Pin=XP1-SH2
+Removed Member From Class: ClassName=ץוץולא Member=XP2
+Removed Member From Class: ClassName=ץוץולא Member=XP3
+Change Component Designator: OldDesignator=VD6 NewDesignator=VD8
+Change Component Designator: OldDesignator=VD7 NewDesignator=VD9
+Change Component Designator: OldDesignator=VD8 NewDesignator=VD10
+Change Component Designator: OldDesignator=VD9 NewDesignator=VD11
+Change Component Designator: OldDesignator=VD10 NewDesignator=VD12
+Change Component Designator: OldDesignator=VD11 NewDesignator=VD13
+Change Component Designator: OldDesignator=VD12_1 NewDesignator=VD14_1
+Change Component Designator: OldDesignator=VD12_2 NewDesignator=VD14_2
+Change Component Designator: OldDesignator=VD12_3 NewDesignator=VD14_3
+Change Component Designator: OldDesignator=VD13 NewDesignator=VD15
+Change Component Designator: OldDesignator=VD14 NewDesignator=VD16
+Change Component Designator: OldDesignator=VD15 NewDesignator=VD17
+Change Component Designator: OldDesignator=XP3 NewDesignator=XP1
+Added Component: Designator=VD6(SOD523)
+Add component (AddParameter): Name = "Part Number"; Value = "PESD5V0S1UB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (W)"; Value = "330"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage nominal (V)"; Value = "5"; VariantName = "[No Variations]"
+Added Component: Designator=VD7(SOD523)
+Add component (AddParameter): Name = "Part Number"; Value = "PESD5V0S1UB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (W)"; Value = "330"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage nominal (V)"; Value = "5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=VD6-1
+Added Pin To Net: NetName=en_akkum Pin=VD6-2
+Added Pin To Net: NetName=GND Pin=VD7-1
+Added Pin To Net: NetName=en_ideal Pin=VD7-2
+Added Pin To Net: NetName=+12_stable Pin=XP1-A1
+Added Pin To Net: NetName=+12_stable Pin=XP1-A2
+Added Pin To Net: NetName=+12_vilka Pin=XP1-A3
+Added Pin To Net: NetName=RS485_1r_P Pin=XP1-A4
+Added Pin To Net: NetName=RS485_1r_N Pin=XP1-A5
+Added Pin To Net: NetName=RS485_2r_N Pin=XP1-A6
+Added Pin To Net: NetName=RS485_2r_P Pin=XP1-A7
+Added Pin To Net: NetName=NetR20_2 Pin=XP1-A8
+Added Pin To Net: NetName=A1 Pin=XP1-A9
+Added Pin To Net: NetName=NetR21_2 Pin=XP1-A10
+Added Pin To Net: NetName=NetR22_2 Pin=XP1-A11
+Added Pin To Net: NetName=NetR23_2 Pin=XP1-A12
+Added Pin To Net: NetName=NetR24_2 Pin=XP1-A13
+Added Pin To Net: NetName=NetR25_2 Pin=XP1-A14
+Added Pin To Net: NetName=NetR26_2 Pin=XP1-A15
+Added Pin To Net: NetName=GND Pin=XP1-A16
+Added Pin To Net: NetName=panel_1 Pin=XP1-B1
+Added Pin To Net: NetName=panel_1 Pin=XP1-B2
+Added Pin To Net: NetName=panel_2 Pin=XP1-B3
+Added Pin To Net: NetName=panel_2 Pin=XP1-B4
+Added Pin To Net: NetName=panel_3 Pin=XP1-B5
+Added Pin To Net: NetName=panel_3 Pin=XP1-B6
+Added Pin To Net: NetName=panel_4 Pin=XP1-B7
+Added Pin To Net: NetName=panel_4 Pin=XP1-B8
+Added Pin To Net: NetName=panel_5 Pin=XP1-B9
+Added Pin To Net: NetName=panel_5 Pin=XP1-B10
+Added Pin To Net: NetName=panel_6 Pin=XP1-B11
+Added Pin To Net: NetName=panel_6 Pin=XP1-B12
+Added Pin To Net: NetName=panel_7 Pin=XP1-B13
+Added Pin To Net: NetName=panel_7 Pin=XP1-B14
+Added Pin To Net: NetName=GND Pin=XP1-B15
+Added Pin To Net: NetName=GND Pin=XP1-B16
+Added Member To Class: ClassName=ץוץולא Member=Component VD10 PESD5V0S1UB
+Added Member To Class: ClassName=ץוץולא Member=Component VD11 SMAJ12CA

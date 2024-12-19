@@ -620,10 +620,11 @@ UniqueID=3E8F0F11-9C3E-4212-AFD9-03D8694B9123
 Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=DD1|UniqueId=\EJQBLMJH|Kind=1|AlternatePart= 
 Variation2=Designator=D1|UniqueId=\NCXFSUFF|Kind=1|AlternatePart= 
-Variation3=Designator=R1|UniqueId=\JLVTKPYM|Kind=1|AlternatePart= 
+Variation3=Designator=R1|UniqueId=\HVKGYRQG|Kind=1|AlternatePart= 
+Variation4=Designator=C4|UniqueId=\LFUGDEYL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
