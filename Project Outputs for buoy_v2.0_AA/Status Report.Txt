@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [buoy_v2.0_AA.PrjPcb]
+   Generated File[х__логия_v25.GTO]
+   Generated File[х__логия_v25.GTS]
+   Generated File[х__логия_v25.GTL]
+   Generated File[х__логия_v25.G1]
+   Generated File[х__логия_v25.G2]
+   Generated File[х__логия_v25.GBL]
+   Generated File[х__логия_v25.GBS]
+   Generated File[х__логия_v25.GBO]
+   Generated File[х__логия_v25.GM1]
+   Generated File[х__логия_v25.RUL]
+   Generated File[х__логия_v25.EXTREP]
+   Generated File[х__логия_v25.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 23:31:51 On 17.01.2025
