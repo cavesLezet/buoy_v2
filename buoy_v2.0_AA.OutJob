@@ -189,7 +189,7 @@ PcbPrintPreferences2=
 OutputType3=BOM_PartType
 OutputName3=Bill of Materials
 OutputCategory3=Report
-OutputDocumentPath3=
+OutputDocumentPath3=buoy_v2.0_AA.BomDoc
 OutputVariantName3=default
 OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
@@ -198,6 +198,22 @@ OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration3_Name1=General
-Configuration3_Item1=TemplateFilename=
+Configuration3_Name1=ColumnNameFormat
+Configuration3_Item1=CaptionAsName
+Configuration3_Name2=ForceUpdateSettings
+Configuration3_Item2=False
+Configuration3_Name3=General
+Configuration3_Item3=TemplateFilename=
+Configuration3_Name4=GroupOrder
+Configuration3_Item4=
+Configuration3_Name5=SortOrder
+Configuration3_Item5=Line #=Up
+Configuration3_Name6=VisibleOrder
+Configuration3_Item6=Part Number=88|Value=87|Footprint=67|Line #=53|Comment=52|Description=79|Designator=77|Quantity=67|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration3_Name7=VisibleOrder_Base
+Configuration3_Item7=Part Number=88|Value=87|Footprint=67|Line #=53|Comment=52|Description=79|Designator=77|Quantity=67|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration3_Name8=VisibleOrder_Consolidated
+Configuration3_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116|Quantity@default=100|Price@default=100
+Configuration3_Name9=VisibleOrder_Flat
+Configuration3_Item9=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 
