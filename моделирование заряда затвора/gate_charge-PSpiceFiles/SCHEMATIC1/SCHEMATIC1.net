@@ -1,0 +1,8 @@
+* source GATE_CHARGE
+X_M1         N16040 N16044 0 NAMS20
+C_C1         N16193 N16044  100n  TC=0,0 
+R_R2         N16040 12V  10 TC=0,0 
+V_V3         N16193 0  
++PULSE 5 0 500n 1n 1n 1u 2u
+V_V4         12V 0 12Vdc
+R_R4         0 N16044  100M TC=0,0 

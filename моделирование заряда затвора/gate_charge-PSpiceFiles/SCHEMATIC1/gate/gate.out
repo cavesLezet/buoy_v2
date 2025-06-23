@@ -1,0 +1,187 @@
+
+**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "gate.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\shustrik\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5u 0 10u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source GATE_CHARGE
+X_M1         N16040 N16044 0 NAMS20
+C_C1         N16193 N16044  100n  TC=0,0 
+R_R2         N16040 12V  10 TC=0,0 
+V_V3         N16193 0  
++PULSE 5 0 500n 1n 1n 1u 2u
+V_V4         12V 0 12Vdc
+R_R4         0 N16044  100M TC=0,0 
+
+**** RESUMING gate.cir ****
+.END
+
+**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_M1.DBD        
+          IS    1.000000E-12 
+          BV   20.1          
+          RS     .1          
+          TT   50.000000E-09 
+         CJO    1.300000E-09 
+          VJ     .38         
+           M     .28         
+
+
+**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_M1.NMOS       X_M1.PMOS       
+               NMOS            PMOS            
+       LEVEL    3               3            
+         TPG                   -1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    3.208865       -2.137209     
+          KP   16.000000E-06   69.062880E-06 
+       GAMMA    3.503845        1.324329     
+         PHI     .896751         .796092     
+      LAMBDA    0               0            
+          RS    4.300000E-03                 
+          IS    0              10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    2.254568E-03  852.146500E-06 
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+        NSUB  490.000000E+15   70.000000E+15 
+         NFS  800.000000E+09                 
+         TOX   30.000000E-09   30.000000E-09 
+          XJ  500.000000E-09    0            
+          UO  650                            
+       UCRIT   10.000000E+03   10.000000E+03 
+       DELTA     .1                          
+         ETA  100.000000E-06                 
+       KAPPA    1.000000E-03                 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_M1.RTEMP      
+           R    1            
+         TC1    6.500000E-03 
+         TC2    5.500000E-06 
+
+
+**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  12V)   12.0000  (N16040)   12.0000 (N16044)    0.0000 (N16193)    5.0000     
+
+(X_M1.3)   12.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         0.000E+00
+    V_V4        -5.182E-11
+
+    TOTAL POWER DISSIPATION   6.22E-10  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+
