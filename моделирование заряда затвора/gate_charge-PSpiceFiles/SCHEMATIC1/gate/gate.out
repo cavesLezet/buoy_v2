@@ -1,5 +1,5 @@
 
-**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+**** 06/24/25 01:59:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
 
@@ -32,7 +32,7 @@
 **** INCLUDING SCHEMATIC1.net ****
 * source GATE_CHARGE
 X_M1         N16040 N16044 0 NAMS20
-C_C1         N16193 N16044  100n  TC=0,0 
+C_C1         N16193 N16044  10u  TC=0,0 
 R_R2         N16040 12V  10 TC=0,0 
 V_V3         N16193 0  
 +PULSE 5 0 500n 1n 1n 1u 2u
@@ -42,7 +42,7 @@ R_R4         0 N16044  100M TC=0,0
 **** RESUMING gate.cir ****
 .END
 
-**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+**** 06/24/25 01:59:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
 
@@ -65,7 +65,7 @@ R_R4         0 N16044  100M TC=0,0
            M     .28         
 
 
-**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+**** 06/24/25 01:59:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
 
@@ -118,7 +118,7 @@ R_R4         0 N16044  100M TC=0,0
        XPART    0               0            
 
 
-**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+**** 06/24/25 01:59:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
 
@@ -137,7 +137,7 @@ R_R4         0 N16044  100M TC=0,0
          TC2    5.500000E-06 
 
 
-**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+**** 06/24/25 01:59:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
 
@@ -171,7 +171,7 @@ R_R4         0 N16044  100M TC=0,0
 
           JOB CONCLUDED
 
-**** 06/24/25 01:56:43 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+**** 06/24/25 01:59:56 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-gate"  [ C:\Users\shustrik\Documents\Altium\buoy_v2\моделирование заряда затвора\gate_charge-PSpiceFiles\SCH
 

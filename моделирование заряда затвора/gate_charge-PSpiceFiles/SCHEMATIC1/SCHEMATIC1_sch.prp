@@ -128,7 +128,7 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"100n")
+                    ("value"	"10u")
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
                 )
